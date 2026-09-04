@@ -1,12 +1,12 @@
-import AboutPage from "@/components/about/page";
 import HeroPage from "@/components/hero/hero";
-import NavBar from "@/components/navbar";
+import NavBar from "@/components/layout/navbar";
 import Image from "next/image";
+import AboutPage from "./about/page";
 
 export default function Home() {
   return (
     <div>
-      <NavBar />
+      {/* <NavBar /> */}
       <HeroPage />
       <AboutPage />
     </div>
