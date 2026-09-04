@@ -5,19 +5,19 @@ import { PiDotDuotone, PiGithubLogo } from "react-icons/pi";
 
 const HeroPage = () => {
   return (
-    <main className="w-full">
-      <section className="relative min-h-screen overflow-hidden bg-[#E2DEDB] ">
+    <main className="w-full ">
+      <section className="relative min-h-[50vh] overflow-hidden bg-[#E2DEDB] ">
         <div
           className="
             relative
             min-h-150
             w-full
           bg-no-repeat
+          bg-contain
             bg-right
             sm:min-h-163
             lg:min-h-175
             lg:bg-right
-            border-none
            rounded-2xl
 
            
@@ -28,7 +28,7 @@ const HeroPage = () => {
           }}
         >
           {/* Content */}
-          <div className="flex  min-h-[150 items-center px-5 py-10 sm:min-h-163 sm:px-10 lg:min-h-175 lg:px-20">
+          <div className="flex min-h-[150 items-center px-5 py-10 sm:min-h-163 sm:px-10 lg:min-h-175 lg:px-20">
             <div className="max-w-xl">
               <h1 className="text-3xl font-bold flex text-blue-950 sm:text-2xl lg:text-3xl">
                 HELLO, I'M SANTOSH BHANDARI
@@ -61,7 +61,7 @@ const HeroPage = () => {
                 ].map((skill) => (
                   <p
                     key={skill}
-                    className="flex items-center text-xl font-semibold text-gray-800 sm:text-base"
+                    className="flex items-center text-xl font-semibold text-gray-800 sm:text-base lg:text-lg"
                   >
                     <PiDotDuotone size={20} className="text-blue-600" />
                     {skill}
@@ -84,17 +84,21 @@ const HeroPage = () => {
                   Download Resume
                 </Link>
               </div>
-              <div className="text-black flex gap-3 mt-5 ">
+              <div className="text-black flex gap-3 mt-5 flex-wrap items-center ">
                 <Link
                   href={"https://github.com/SantoshBhandari7"}
-                  className="flex justify-center items-center gap-0.5 font-bold text-xl sm:text-gray-100"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex justify-center items-center gap-0.5 font-bold text-xl sm:text-gray-100 lg:text-gray-700"
                 >
                   <PiGithubLogo size={30} />
                   GitHub
                 </Link>
                 <Link
                   href={"/www.linkedin.com"}
-                  className="flex gap-0.5 text-xl justify-center items-center font-bold sm:text-blue-100"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex gap-0.5 text-xl justify-center items-center font-bold sm:text-blue-100 lg:text-gray-700"
                 >
                   <LiaLinkedin size={30} /> linkedin
                 </Link>
