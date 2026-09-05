@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import FrontEnd from "./frontend";
 import Backend from "./backend";
 import CloudDeployemnet from "./devops";
+import Tools from "./tools";
 
 const SkillTabs = () => {
   const [active, setActive] = useState("frontend");
@@ -53,7 +54,8 @@ const SkillTabs = () => {
       <div>
         {active === "frontend" && <FrontEnd />}
         {active === "backend" && <Backend />}
-        {active === "devops" && <CloudDeployemnet />}
+        {active === "clouddeployment" && <CloudDeployemnet />}
+        {active === "tools" && <Tools />}
       </div>
     </main>
   );
