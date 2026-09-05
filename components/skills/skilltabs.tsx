@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import FrontEnd from "./frontend";
 import Backend from "./backend";
+import CloudDeployemnet from "./devops";
 
 const SkillTabs = () => {
   const [active, setActive] = useState("frontend");
@@ -29,14 +30,14 @@ const SkillTabs = () => {
           Backend
         </button>
         <button
-          onClick={() => setActive("devops")}
+          onClick={() => setActive("clouddeployment")}
           className={
-            active === "devops"
+            active === "clouddeployment"
               ? "rounded-full bg-linear-to-r from-blue-500 to-purple-500 px-6 py-3"
               : "rounded-full border border-gray-700 px-6 py-3"
           }
         >
-          Devops
+          CloudDeployment
         </button>
         <button
           onClick={() => setActive("tools")}
@@ -52,6 +53,7 @@ const SkillTabs = () => {
       <div>
         {active === "frontend" && <FrontEnd />}
         {active === "backend" && <Backend />}
+        {active === "devops" && <CloudDeployemnet />}
       </div>
     </main>
   );
