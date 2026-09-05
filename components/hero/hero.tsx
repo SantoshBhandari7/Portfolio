@@ -7,8 +7,8 @@ import { PiDotDuotone, PiGithubLogo } from "react-icons/pi";
 
 const HeroPage = () => {
   return (
-    <main className="w-full ">
-      <section className="relative min-h-[50vh] overflow-hidden bg-[#E2DEDB] ">
+    <main className="w-full bg-[#3e3eaf] ">
+      <section className="relative min-h-[50vh] overflow-hidden  bg-[#3e3eaf]  ">
         <div
           className="
             relative
@@ -21,8 +21,7 @@ const HeroPage = () => {
             lg:min-h-175
             lg:bg-right
            rounded-2xl
-
-           
+            bg-[#3e3eaf]
           "
           style={{
             backgroundImage: "url('/picture.jpg')",
@@ -30,15 +29,18 @@ const HeroPage = () => {
           }}
         >
           {/* Content */}
-          <div className="flex min-h-[150 items-center px-5 py-10 sm:min-h-163 sm:px-10 lg:min-h-175 lg:px-20">
+          <div className="flex min-h-[150 px-5 py-15 sm:min-h-163 sm:px-10  md:py-2 lg:min-h-175 lg:px-20 sm:justify-center sm:py-8   bg-[#10103d] ">
             <div className="max-w-xl">
-              <h1 className="text-3xl font-bold flex text-blue-950 sm:text-2xl lg:text-3xl">
-                HELLO, I'M SANTOSH BHANDARI
-              </h1>
-              <p className="mt-4 text-xl font-semibold text-gray-800 sm:text-xl lg:text-2xl">
-                Full Stack Developer
+              {/* <h1 className="text-4xl font-bold flex text-[#1264e0] → #9333EA sm:text-2xl lg:text-3xl"> */}
+              <div className="flex gap-3 text-4xl font-extrabold sm:text-5xl ">
+                <p className="text-[#231dd4b6]">Santosh</p>
+                <p className="text-[#7b62d2b6]"> Bhandari</p>
+              </div>
+
+              <p className="mt-4 text-xl font-semibold text-white sm:text-xl lg:text-2xl">
+                Full Stack Developer | MERN Stack Devloper
               </p>
-              <p className="mt-4 text-md leading-6 text-gray-800 sm:text-base lg:text-lg">
+              <p className="mt-4 text-md leading-6 text-white sm:text-base lg:text-lg">
                 I build modern web applications with a focus on clean design,
                 smooth user experiences, and reliable backend functionality. As
                 a fresher, I’m eager to learn, grow, and contribute to
@@ -56,9 +58,9 @@ const HeroPage = () => {
                 ].map((skill) => (
                   <p
                     key={skill}
-                    className="flex items-center text-xl font-semibold text-gray-800 sm:text-base lg:text-lg"
+                    className="flex items-center text-xl font-semibold text-gray-300 sm:text-base lg:text-lg"
                   >
-                    <PiDotDuotone size={20} className="text-blue-600" />
+                    <PiDotDuotone size={20} className="text-[#30efcd]" />
                     {skill}
                   </p>
                 ))}

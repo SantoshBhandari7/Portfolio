@@ -5,7 +5,7 @@ import AboutPage from "./about/page";
 
 export default function Home() {
   return (
-    <div>
+    <div className="">
       {/* <NavBar /> */}
       <HeroPage />
       <AboutPage />

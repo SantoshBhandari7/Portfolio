@@ -7,7 +7,7 @@ export const NavLink = ({
 }) => {
   return (
     <Link href={link}>
-      <span className="text-lg font-semibold text-gray-900 hover:text-sky-500">
+      <span className="text-lg font-semibold text-gray-500 hover:text-sky-500">
         {label}
       </span>
     </Link>
