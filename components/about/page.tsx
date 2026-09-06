@@ -1,62 +1,59 @@
-import Image from "next/image";
+"use client";
+
 import React, { useState } from "react";
-import Button from "../common/ui/button";
-import AboutCard from "../common/cards/about.card";
-import { FaReact } from "react-icons/fa6";
-import { SiNextdotjs, SiSkillshare } from "react-icons/si";
-import {
-  TbBrandCss3,
-  TbBrandHtml5,
-  TbBrandJavascript,
-  TbBrandTypescript,
-} from "react-icons/tb";
-import { BiLogoTailwindCss } from "react-icons/bi";
 import SkillTabs from "../skills/skilltabs";
-import { MdCastForEducation } from "react-icons/md";
+import { MdCastForEducation, MdSchool, MdWork } from "react-icons/md";
 import { AiFillExperiment } from "react-icons/ai";
+import { SiSkillshare } from "react-icons/si";
 import Experiance from "../experiance/page";
 import Education from "../education/page";
+import { GiSkills } from "react-icons/gi";
 
 const AboutSection = () => {
   const [about, setAbout] = useState("skills");
+
   return (
-    <main>
-      <section>
-        <div
-          onClick={() => setAbout("skills")}
-          className={
-            about === "skills"
-              ? "rounded-full from-blue-500 to-purple-500 text-lg"
-              : "rounded-full border-gray-700"
-          }
-        >
-          <SiSkillshare /> Skills
-        </div>
-        <div
-          onClick={() => setAbout("experience")}
-          className={
-            about === "experience"
-              ? "rounded-full from-blue-500 to-purple-500 text-lg"
-              : "rounded-full border-gray-600"
-          }
-        >
-          <AiFillExperiment /> Experiance
+    <main className="w-full px-4 sm:px-6 lg:px-8">
+      <section className="mx-auto w-full max-w-6xl">
+        <div className="flex  flex-wrap justify-center gap-3 sm:gap-4 rounded-full border p-2 border-gray-500 w-full">
+          <button
+            onClick={() => setAbout("skills")}
+            className={`flex items-center justify-center gap-2 rounded-full px-4 py-2 text-sm transition-all duration-300 sm:px-6 sm:py-3 sm:text-base ${
+              about === "skills"
+                ? "bg-linear-to-r from-blue-500 to-purple-500 text-white"
+                : " text-gray-400 hover:text-white hover:border hover:border-gray-400"
+            }`}
+          >
+            <GiSkills />
+            <span>Skills</span>
+          </button>
+          <button
+            onClick={() => setAbout("experience")}
+            className={`flex items-center justify-center gap-2 rounded-full px-4 py-2 text-sm transition-all duration-300 sm:px-6 sm:py-3 sm:text-base ${
+              about === "experience"
+                ? "bg-linear-to-r from-blue-500 to-purple-500 text-white"
+                : " text-gray-400 hover:text-white hover:border hover:border-gray-400"
+            }`}
+          >
+            <MdWork />
+            <span>Experience</span>
+          </button>
+          <button
+            onClick={() => setAbout("education")}
+            className={`flex items-center justify-center gap-2 rounded-full px-4 py-2 text-sm transition-all duration-300 sm:px-6 sm:py-3 sm:text-base ${
+              about === "education"
+                ? "bg-linear-to-r from-blue-500 to-purple-500 text-white"
+                : " text-gray-400 hover:text-white hover:border hover:border-gray-400"
+            }`}
+          >
+            <MdSchool />
+            <span>Education</span>
+          </button>
         </div>
 
-        <div
-          onClick={() => setAbout("education")}
-          className={
-            about === "education"
-              ? "rounded-full from-blue-500 to-purple-500 text-lg"
-              : "rounded-full border-gray-600"
-          }
-        >
-          <MdCastForEducation /> Education
-        </div>
-
-        <div>
+        <div className="mt-8 w-full sm:mt-10">
           {about === "skills" && <SkillTabs />}
-          {about === "experiance" && <Experiance />}
+          {about === "experience" && <Experiance />}
           {about === "education" && <Education />}
         </div>
       </section>
