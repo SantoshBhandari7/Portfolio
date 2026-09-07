@@ -21,20 +21,20 @@ const HeroPage = () => {
             lg:min-h-175
             lg:bg-right
            rounded-2xl
-            bg-[#3e3eaf]
+          
           "
           style={{
             backgroundImage: "url('/picture.jpg')",
-            // backgroundSize: "auto 100%",
+            backgroundSize: "auto 100%",
           }}
         >
-          {/* Content */}
           <div className="flex min-h-[150 px-5 py-15 sm:min-h-163 sm:px-10  md:py-2 lg:min-h-175 lg:px-20 sm:justify-center sm:py-8   bg-[#10103d] ">
             <div className="max-w-xl">
               {/* <h1 className="text-4xl font-bold flex text-[#1264e0] → #9333EA sm:text-2xl lg:text-3xl"> */}
               <div className="flex gap-3 text-4xl font-extrabold sm:text-5xl ">
-                <p className="text-[#231dd4b6]">Santosh</p>
-                <p className="text-[#7b62d2b6]"> Bhandari</p>
+                <p className="bg-linear-to-r bg-clip-text text-transparent from-blue-600 to-purple-600">
+                  Santosh Bhandari
+                </p>
               </div>
 
               <p className="mt-4 text-xl font-semibold text-white sm:text-xl lg:text-2xl">
@@ -43,7 +43,7 @@ const HeroPage = () => {
               <p className="mt-4 text-md leading-6 text-white sm:text-base lg:text-lg">
                 I build modern web applications with a focus on clean design,
                 smooth user experiences, and reliable backend functionality. As
-                a fresher, I’m eager to learn, grow, and contribute to
+                a fresher, I'm eager to learn, grow, and contribute to
                 real-world development projects.
               </p>
 

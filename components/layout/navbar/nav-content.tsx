@@ -12,16 +12,6 @@ const navLinks: { label: string; link: string; id: string }[] = [
     id: "about-page",
   },
   {
-    label: "Education",
-    link: "/education",
-    id: "education-page",
-  },
-  {
-    label: "Skills",
-    link: "/skills",
-    id: "skills-page",
-  },
-  {
     label: "Projects",
     link: "/projects",
     id: "project-page",
@@ -35,7 +25,7 @@ const navLinks: { label: string; link: string; id: string }[] = [
 
 const NavLinks = () => {
   return (
-    <div className="flex flex-col gap-3 text-white lg:flex-row lg:items-center lg:gap-5">
+    <div className="flex flex-col gap-3 text-sky-600 lg:flex-row lg:items-center lg:gap-5">
       {navLinks.map((item) => (
         <NavLink key={item.id} item={item} />
       ))}
