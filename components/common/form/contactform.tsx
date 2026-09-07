@@ -11,7 +11,10 @@ const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col gap-3 ">
+    <form
+      onSubmit={handleSubmit}
+      className="flex flex-col gap-3 border rounded-lg border-gray-600 w-fit h-fit p-3  "
+    >
       <Input
         id="name"
         type="text"
@@ -34,6 +37,7 @@ const ContactForm = () => {
         name="message"
         label="Message"
         rows={5}
+        cols={40}
         placeholder="your message"
       />
       <Button type="submit" label="Submit" />

@@ -22,7 +22,7 @@ const Input = ({ id, name, label, type, placeholder, required }: IProps) => {
         id={id}
         type={type}
         placeholder={placeholder}
-        className="border border-gray-600 text-gray-500 px-2 py-1 w-fit h-fit rounded-md hover:border-blue-400 focus-within:border-blue-500 focus:border-b-amber-200"
+        className="border border-gray-600 text-white px-2 py-1 w-fit h-fit rounded-md hover:border-blue-400 focus-within:border-blue-500 focus:border-b-amber-200"
       />
     </div>
   );
