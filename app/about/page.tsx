@@ -14,20 +14,20 @@ const AboutPage = () => {
               Passionate About Full Stack Development
             </h3>
 
-            <div className="space-y-3">
-              <p className="text-sm  text-gray-400 sm:text-base  lg:text-lg">
+            <div className="space-y-3 mt-4 text-start">
+              <p className="text-sm  text-gray-300 sm:text-base  lg:text-md">
                 I'm a fresher Full Stack Developer with a strong interest in
                 building modern, responsive and user-friendly web applications.
               </p>
 
-              <p className="text-sm  text-gray-400 sm:text-base  lg:text-lg">
+              <p className="text-sm  text-gray-300 sm:text-base  lg:text-md">
                 Through academic learning, MERN Stack training and personal
                 projects, I have developed practical experience in frontend
                 development, backend development, REST APIs, authentication and
                 databases.
               </p>
 
-              <p className="text-sm   text-gray-400 sm:text-base  lg:text-lg">
+              <p className="text-sm   text-gray-300 sm:text-base  lg:text-md">
                 I enjoy learning new technologies and turning ideas into
                 functional real-world applications.
               </p>

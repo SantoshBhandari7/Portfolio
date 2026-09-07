@@ -1,10 +1,12 @@
 import Link from "next/link";
 import React from "react";
+import { DiGithub } from "react-icons/di";
+import { FaFacebook, FaLinkedin } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <main className="w-full h-[30vh]">
-      <section className=" flex justify-evenly gap-5 bg-gray-500 px-7 py-7 h-full">
+    <main className="w-full   bg-[#0c0964de] px-7 py-7 h-full">
+      <section className=" flex justify-evenly gap-5   h-full">
         <div>
           <h1>Santosh Bhandari</h1>
           <p>MERN Stack Developer</p>
@@ -16,14 +18,36 @@ const Footer = () => {
               Home
             </Link>
             <Link href={"/about"}>About</Link>
-            <Link href={"/education"}>Education</Link>
             <Link href={"/projects"}>Projects</Link>
-            <Link href={"/skills"}>Skills</Link>
             <Link href={"/contact"}>contact</Link>
           </div>
         </div>
-        <p>&copy; Santosh Bhandari</p>
+        <div className="flex flex-col">
+          <h1>Connect With Me</h1>
+          <div className="flex mt-3  gap-5 sm:flex-col lg:flex-row">
+            <Link href={"https://github.com/SantoshBhandari7"}>
+              <p className="flex text-md font-medium">
+                <DiGithub size={20} /> GitHub
+              </p>
+            </Link>
+            <Link href={""}>
+              <p className="flex text-md font-medium">
+                <FaLinkedin size={20} />
+                LinkedIn
+              </p>
+            </Link>
+            <Link href={"https://www.facebook.com/santosh.bhandari.473531/"}>
+              <p className="flex text-md font-medium">
+                <FaFacebook size={20} /> Facebook
+              </p>
+            </Link>
+          </div>
+        </div>
       </section>
+      <div className="flex p-3  justify-evenly mt-3 border-t border-r-gray-400 w-full sm:flex-col lg:flex-row">
+        <p className="text-base">&copy; Santosh Bhandari.</p>
+        <p className="text-base">Built With Next.js and TailWindCSS</p>
+      </div>
     </main>
   );
 };
