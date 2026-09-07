@@ -19,10 +19,10 @@ const FrontEnd = () => {
         className=" grid
           grid-cols-1
           gap-4
-          sm:grid-cols-2
+          sm:grid-cols-1
           sm:gap-5
-          lg:grid-cols-3
-          xl:grid-cols-4"
+          lg:grid-cols-1
+          xl:grid-cols-3"
       >
         <AboutCard
           icon={<FaReact size={30} />}

@@ -5,8 +5,8 @@ import { SiCloudinary, SiMongodb, SiRender } from "react-icons/si";
 
 const CloudDeployemnet = () => {
   return (
-    <main>
-      <div>
+    <main className="w-full px-4 py-6 sm:px-6 lg:py-8">
+      <div className="mt-5 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-5">
         <AboutCard
           icon={<SiCloudinary size={30} />}
           name="Cloudinary"

@@ -51,7 +51,7 @@ const AboutSection = () => {
           </button>
         </div>
 
-        <div className="mt-8 w-full sm:mt-10">
+        <div className="mt-8 w-full sm:mt-10 lg:mt-6">
           {about === "skills" && <SkillTabs />}
           {about === "experience" && <Experiance />}
           {about === "education" && <Education />}

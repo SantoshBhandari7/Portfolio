@@ -5,7 +5,7 @@ import { SiExpress } from "react-icons/si";
 
 const Backend = () => {
   return (
-    <main className="w-full px-6 py-7 sm:px-6 lg:px-8">
+    <main className="w-full px-4 py-6 sm:px-6 lg:py-8">
       <div className="grid grid-cols-1 sm:grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <AboutCard
           icon={<TbBrandNodejs size={30} />}

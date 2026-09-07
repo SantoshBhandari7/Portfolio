@@ -4,14 +4,13 @@ import React from "react";
 const AboutPage = () => {
   return (
     <main className="w-full min-h-screen">
-      <section className=" min-h-screen w-full  bg-[#040329de] px-4 py-10 sm:px-6 sm:py-12 md:px-8 lg:px-12 lg:py-16">
-        <div className=" mx-auto flex w-full max-w-7xl  flex-col items-center justify-center gap-10  lg:flex-row lg:items-center lg:gap-12">
-          <div className="  w-full lg:text-left text-center lg:w-1/2">
-            <h1 className="  mb-4 text-3xl font-bold  text-blue-500 sm:text-4xl lg:text-5xl">
-              About Me
-            </h1>
-
-            <h3 className=" mb-5 text-xl font-semibold  text-gray-200   sm:text-2xl lg:text-3xl">
+      <section className=" min-h-screen w-full text-center  bg-[#040329de] px-4 py-12 sm:px-6  md:px-8 lg:px-6 ">
+        <h1 className=" inline-block h-16 border-b-4 border-green-400 pb-1 text-5xl font-bold bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+          About Me
+        </h1>
+        <div className="mx-auto flex w-full max-w-7xl  flex-col items-center  gap-5  lg:flex-row lg:items-center lg:gap-8">
+          <div className="min-h-108 w-full lg:text-left  text-center lg:w-1/2 p-3">
+            <h3 className="text-xl font-semibold  text-gray-200  sm:text-2xl lg:text-3xl">
               Passionate About Full Stack Development
             </h3>
 
@@ -35,7 +34,7 @@ const AboutPage = () => {
             </div>
           </div>
 
-          <div className="w-full lg:w-1/2">
+          <div className="w-full mt-3 min-w-0">
             <AboutSection />
           </div>
         </div>

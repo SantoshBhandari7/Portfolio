@@ -8,7 +8,7 @@ import { MdWork } from "react-icons/md";
 const Experience = () => {
   return (
     <main className="w-full">
-      <section className="flex flex-col gap-1 w-full sm:px-5 lg:px-7">
+      <section className="grid grid-cols-1 gap-1 w-full sm:px-5 lg:px-7">
         <h1 className="text-2xl font-semibold">
           MERN Stack Developer Certification
         </h1>
