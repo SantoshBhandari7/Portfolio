@@ -14,7 +14,7 @@ const SkillTabs = () => {
           onClick={() => setActive("frontend")}
           className={
             active === "frontend"
-              ? "rounded-full bg-linear-to-r form-blue-500 to-purple-600 px-6 py-3 "
+              ? "rounded-full bg-linear-to-r from-blue-500 to-purple-600 px-6 py-3 "
               : "rounded-full border border-gray-700 px-6 py-3"
           }
         >
@@ -51,7 +51,7 @@ const SkillTabs = () => {
           Tools
         </button>
       </section>
-      <div>
+      <div className="min-h-125 pt-6">
         {active === "frontend" && <FrontEnd />}
         {active === "backend" && <Backend />}
         {active === "clouddeployment" && <CloudDeployemnet />}

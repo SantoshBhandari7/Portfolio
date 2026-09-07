@@ -5,11 +5,11 @@ const AboutPage = () => {
   return (
     <main className="w-full min-h-screen">
       <section className=" min-h-screen w-full text-center  bg-[#040329de] px-4 py-12 sm:px-6  md:px-8 lg:px-6 ">
-        <h1 className=" inline-block h-16 border-b-4 border-green-400 pb-1 text-5xl font-bold bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+        <h1 className="inline-block  border-b-4 border-sky-400 text-3xl font-bold bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
           About Me
         </h1>
-        <div className="mx-auto flex w-full max-w-7xl  flex-col items-center  gap-5  lg:flex-row lg:items-center lg:gap-8">
-          <div className="min-h-108 w-full lg:text-left  text-center lg:w-1/2 p-3">
+        <div className="mx-auto mt-6 flex w-full max-w-7xl flex-col items-start gap-6 lg:flex-row lg:items-start lg:gap-8">
+          <div className="flex min-h-108 w-full flex-col justify-center rounded-xl border border-gray-600 p-5 lg:w-1/2 lg:p-8">
             <h3 className="text-xl font-semibold  text-gray-200  sm:text-2xl lg:text-3xl">
               Passionate About Full Stack Development
             </h3>
@@ -34,7 +34,7 @@ const AboutPage = () => {
             </div>
           </div>
 
-          <div className="w-full mt-3 min-w-0">
+          <div className="w-fit rounded-xl  min-w-0 border border-gray-600  h-full p-3  lg:w-3/4">
             <AboutSection />
           </div>
         </div>

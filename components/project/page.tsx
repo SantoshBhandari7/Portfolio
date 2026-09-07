@@ -26,7 +26,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "School ManageMent",
+    title: "School ManageMent System",
     description:
       "A management system designed to manage student, teacher, courses,classes and other school related information",
     image: "/e-commerce.png",
