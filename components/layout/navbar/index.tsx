@@ -14,12 +14,6 @@ const NavBar = () => {
         </div>
         <div className="flex gap-6 px-1 py-1">
           <NavLinks />
-
-          <Link href={"/"}>
-            <p className="flex bg-blue-400 font-bold rounded-lg text-gray-800 w-full h-full p-3 sm:h-10 sm:p-3 sm:items-center">
-              DownLoad Resume <FaDownload size={20} />{" "}
-            </p>
-          </Link>
         </div>
       </div>
       <div></div>

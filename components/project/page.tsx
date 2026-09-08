@@ -30,15 +30,7 @@ const projects = [
     description:
       "A management system designed to manage student, teacher, courses,classes and other school related information",
     image: "/e-commerce.png",
-    technologies: [
-      "Next.js",
-      "TypeScripts",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "REST ApI",
-      "Render",
-    ],
+    technologies: ["Node.js", "Express.js", "MongoDB", "REST ApI", "Render"],
     liveLink: "#",
     githubLink: "#",
   },
