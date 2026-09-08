@@ -40,7 +40,7 @@ const ContactForm = () => {
         cols={40}
         placeholder="your message"
       />
-      <Button type="submit" label="Submit" />
+      <Button type="submit" label="Send Message" />
     </form>
   );
 };

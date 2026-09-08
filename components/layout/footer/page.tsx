@@ -5,7 +5,7 @@ import { FaFacebook, FaLinkedin } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <main className="w-full   bg-[#0c0964de] px-7 py-7 h-full">
+    <main className="w-full   bg-[#0c0964de] px-7 py-7 h-fit ">
       <section className=" flex justify-evenly gap-5   h-full">
         <div>
           <h1>Santosh Bhandari</h1>
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
       </section>
       <div className="flex p-3  justify-evenly mt-3 border-t border-r-gray-400 w-full sm:flex-col lg:flex-row">
-        <p className="text-base">&copy; Santosh Bhandari.</p>
+        <p className="text-base">&copy; Santosh Bhandari.All Rights Reserved</p>
         <p className="text-base">Built With Next.js and TailWindCSS</p>
       </div>
     </main>
