@@ -25,14 +25,14 @@ const Experience = () => {
             responsive web experiences.
           </p>
         </div>
-        <Link
+        {/* <Link
           href={"/herophoto.jpg"}
           target="_blank"
           rel="noopener noreferrer"
           className=" mx-auto mt-4 rounded-lg bg-blue-600 px-5 flex  items-center gap-2  w-fit h-fit py-2 text-white hover:bg-blue-700 hover:-translate-x-1"
         >
           View Certificate <BiArrowToRight />
-        </Link>
+        </Link> */}
       </section>
     </main>
   );
