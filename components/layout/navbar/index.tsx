@@ -5,18 +5,17 @@ import Link from "next/link";
 
 const NavBar = () => {
   return (
-    <nav className="w-full border-b border-gray-700 bg-[#0f0f22] ">
-      <div className="relative mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 justify-center item-center">
+    <nav className="w-full h-16 z-9999 bg-[#3e3eaf]  ">
+      <div className="fixed w-full  bg-[#08085d] shadow-md  flex overflow-x-hidden items-center justify-evenly px-4 sm:px-12 lg:px-8 lg:justify-evenly gap-10 ">
+        <div className="flex h-auto justify-center item-center">
           <p className="text-3xl font-bold p-4 h-16 bg-linear-to-r bg-clip-text text-transparent bg-sky-600 to-pink-500">
             Santosh
           </p>
         </div>
-        <div className="flex gap-6 px-1 py-1">
+        <div className="hidden sm:hidden md:flex md:flex-row sm:justify-evenly  lg:flex-row gap-5">
           <NavLinks />
         </div>
       </div>
-      <div></div>
     </nav>
   );
 };

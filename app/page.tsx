@@ -4,6 +4,7 @@ import Image from "next/image";
 import AboutPage from "./about/page";
 import ProjectPage from "./projects/page";
 import ContactPage from "./contact/page";
+import Footer from "@/components/layout/footer/page";
 
 export default function Home() {
   return (
