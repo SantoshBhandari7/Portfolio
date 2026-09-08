@@ -75,7 +75,7 @@ const HeroPage = () => {
                 </Link>
 
                 <Link
-                  href="/downloadresume"
+                  href="/CV.pdf"
                   className="rounded-lg bg-blue-500 px-3 py-3 text-center font-medium text-white w-fit  hover:bg-blue-600 hover:-translate-x-1"
                 >
                   Download Resume

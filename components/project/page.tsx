@@ -72,11 +72,11 @@ const ProjectSection = () => {
                 <p className="text-sm mt-3 text-gray-400">
                   {project.description}
                 </p>
-                <div className="mt-3 grid grid-cols-5 sm:grid-cols-5 lg:grid-col-7 gap-2">
+                <div className="mt-3 flex flex-wrap gap-2">
                   {project.technologies.map((technology) => (
                     <span
                       key={technology}
-                      className="rounded-full border border-gray-600 text-center from-blue-400 to-gray-400  text-sm font-medium text-gray-300 w-full h-full px-3 py-1"
+                      className="rounded-full border border-gray-600 text-start from-blue-400 to-gray-400  text-sm font-medium text-gray-300 w-fit h-full px-4 py-1 "
                     >
                       {technology}
                     </span>
