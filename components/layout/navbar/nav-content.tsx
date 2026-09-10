@@ -25,7 +25,7 @@ const navLinks: { label: string; link: string; id: string }[] = [
 
 const NavLinks = () => {
   return (
-    <div className="flex  gap-1 text-sky-600  sm:flex sm:flex-row sm:hidde sm:gap-1 lg:flex-row lg:items-center lg:gap-5">
+    <div className="flex  gap-1 text-sky-900  sm:flex sm:flex-row sm:hidde sm:gap-1 lg:flex-row lg:items-center lg:gap-5">
       {navLinks.map((item) => (
         <NavLink key={item.id} item={item} />
       ))}
