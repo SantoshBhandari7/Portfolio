@@ -19,7 +19,7 @@ const Footer = () => {
             </Link>
             <Link href={"/about"}>About</Link>
             <Link href={"/projects"}>Projects</Link>
-            <Link href={"/contact"}>contact</Link>
+            <Link href={"/contact"}>Contact</Link>
           </div>
         </div>
         <div className="flex flex-col">
