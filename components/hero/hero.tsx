@@ -91,7 +91,7 @@ const HeroPage = () => {
                 <PiGithubLogo size={30} />
               </Link>
               <Link
-                href={"/www.linkedin.com"}
+                href={"https://www.linkedin.com/in/santosh-bhandari-0611933a0/"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex gap-0.5 text-xl justify-center text-gray-800 items-center font-bold  hover:text-gray-300 "

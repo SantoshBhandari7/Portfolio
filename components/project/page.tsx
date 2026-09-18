@@ -28,11 +28,12 @@ const projects = [
     id: 2,
     title: "School ManageMent System",
     description:
-      "A management system designed to manage student, teacher, courses,classes and other school related information",
-    image: "/e-commerce.png",
+      "A management system designed to manage student, teacher, courses,classes and other school related information! ,Which is still in process it should be look like that above image",
+    image: "/mksh.png",
     technologies: ["Node.js", "Express.js", "MongoDB", "REST ApI", "Render"],
     liveLink: "#",
-    githubLink: "#",
+    githubLink:
+      "https://github.com/SantoshBhandari7/SchoolManageMentSystem.git",
   },
 ];
 
