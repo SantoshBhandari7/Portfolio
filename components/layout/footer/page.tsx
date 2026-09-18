@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col gap-4">
           <h1 className="text-center">Quick Links</h1>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="flex flex-col sm:flex-col lg:flex-row gap-3">
             <Link href={"/"} className=" hover:text-blue-400">
               Home
             </Link>
@@ -24,14 +24,14 @@ const Footer = () => {
         </div>
         <div className="flex flex-col">
           <h1>Connect With Me</h1>
-          <div className="flex mt-3  gap-5 sm:flex-col lg:flex-row">
+          <div className="flex mt-3  sm:flex-col  lg:flex-row gap-5">
             <Link href={"https://github.com/SantoshBhandari7"}>
               <p className="flex text-md font-medium">
                 <DiGithub size={20} /> GitHub
               </p>
             </Link>
             <Link href={""}>
-              <p className="flex text-md font-medium">
+              <p className="flex text-md font-medium ">
                 <FaLinkedin size={20} />
                 LinkedIn
               </p>

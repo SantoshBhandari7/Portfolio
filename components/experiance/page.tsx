@@ -15,7 +15,7 @@ const Experience = () => {
           </h1>
           <div className="flex flex-row px-2 items-center mt-1 text-start gap-2 ">
             <h3 className=" text-blue-500 border w-fit h-fit p-1 border-gray-700 rounded-lg ">
-              BroadWay Infosis
+              BroadWay Infosys
             </h3>
             <span className="text-gray-500 font-normal"> 2026 </span>
           </div>
