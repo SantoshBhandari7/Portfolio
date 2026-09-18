@@ -86,7 +86,7 @@ const HeroPage = () => {
                 href={"https://github.com/SantoshBhandari7"}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex justify-center  text-gray-800  items-center gap-0.5 font-bold text-xl hover:text-gray-300 "
+                className="flex justify-center  text-gray-600  items-center gap-0.5 font-bold text-xl hover:text-gray-300 "
               >
                 <PiGithubLogo size={30} />
               </Link>
@@ -94,7 +94,7 @@ const HeroPage = () => {
                 href={"https://www.linkedin.com/in/santosh-bhandari-0611933a0/"}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex gap-0.5 text-xl justify-center text-gray-800 items-center font-bold  hover:text-gray-300 "
+                className="flex gap-0.5 text-xl justify-center text-gray-600 items-center font-bold  hover:text-gray-300 "
               >
                 <LiaLinkedin size={30} />
               </Link>

@@ -17,9 +17,18 @@ const Footer = () => {
             <Link href={"/"} className=" hover:text-blue-400">
               Home
             </Link>
-            <Link href={"/about"}>About</Link>
-            <Link href={"/projects"}>Projects</Link>
-            <Link href={"/contact"}>Contact</Link>
+            <Link href={"/about"} className=" hover:text-blue-400">
+              About
+            </Link>
+            <Link href={"/about"} className=" hover:text-blue-400">
+              About
+            </Link>
+            <Link href={"/projects"} className=" hover:text-blue-400">
+              Projects
+            </Link>
+            <Link href={"/contact"} className=" hover:text-blue-400">
+              Contact
+            </Link>
           </div>
         </div>
         <div className="flex flex-col">

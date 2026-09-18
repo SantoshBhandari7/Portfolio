@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { title } from "process";
 import React from "react";
 import { DiGithubBadge } from "react-icons/di";
 import { FiExternalLink } from "react-icons/fi";
@@ -15,6 +16,7 @@ const projects = [
     technologies: [
       "Next.js",
       "TypeScripts",
+      "Tailwind CSS",
       "Node.js",
       "Express.js",
       "MongoDB",
@@ -34,6 +36,16 @@ const projects = [
     liveLink: "#",
     githubLink:
       "https://github.com/SantoshBhandari7/SchoolManageMentSystem.git",
+  },
+  {
+    id: 3,
+    title: "Persional Portfolio",
+    description:
+      "A modern, responsive portfolio website designed to showcase my technical skills, projects, and professional background, built with Next.js, TypeScript, and Tailwind CSS.",
+    image: "/portfolio.png",
+    technologies: ["Next.js", "TypeScripts", "Tailwind CSS", "Render"],
+    liveLink: "https://portfolio-j0g9.onrender.com/",
+    githubLink: "https://github.com/SantoshBhandari7/Portfolio",
   },
 ];
 
