@@ -9,7 +9,7 @@ import { PiDotDuotone, PiGithubLogo } from "react-icons/pi";
 const HeroPage = () => {
   return (
     <main className="w-full bg-[#05053b]  ">
-      <section className="relative min-h-[90vh]   bg-[#3e3eaf]  ">
+      <section className="relative min-h-[90vh]  bg-[#3e3eaf]  ">
         {/* <div
           className="
             absolute
@@ -29,18 +29,18 @@ const HeroPage = () => {
             backgroundSize: "auto 100%",
           }}
         > */}
-        <div className="flex min-h-150  px-5 py-15 md:px-10   sm:min-h-163 sm:px-10  md:py-2 lg:min-h-175 lg:px-20 sm:justify-center sm:py-8 lg:text-left  bg-[#10103d] ">
-          <div className="max-w-xl pt-20  lg:text-left">
-            <div className="flex   gap-3 text-4xl font-extrabold sm:text-5xl ">
-              <h1 className="bg-linear-to-r bg-clip-text text-transparent from-blue-600 to-purple-600">
+        <div className="flex min-h-150   py-15 md:px-10   sm:min-h-163 sm:px-10 px-5  lg:px-20 md:py-2 lg:min-h-175  sm:justify-center lg:justify-center sm:py-8   bg-[#10103d] ">
+          <div className="max-w-3xl pt-20 ">
+            <div className="flex  gap-3 text-3xl font-extrabold sm:text-5xl lg:text-6xl ">
+              <h1 className="bg-linear-to-r flex flex-row tracking-wide bg-clip-text text-transparent from-blue-600 to-purple-600">
                 Santosh Bhandari
               </h1>
             </div>
 
-            <p className="mt-4 text-xl font-semibold text-white sm:text-xl lg:text-2xl">
+            <p className="mt-4  text-xl tracking-wide font-semibold text-white sm:text-xl lg:text-3xl">
               Full Stack Developer | MERN Stack Devloper
             </p>
-            <p className="mt-4 text-md leading-6 text-white sm:text-base lg:text-lg">
+            <p className="mt-4 text-md   text-white sm:text-base lg:text-lg">
               I build modern web applications with a focus on clean design,
               smooth user experiences, and reliable backend functionality. As a
               fresher, I'm eager to learn, grow, and contribute to real-world
