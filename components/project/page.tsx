@@ -28,7 +28,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "School ManageMent System",
+    title: "School Management System",
     description:
       "A management system designed to manage student, teacher, courses,classes and other school related information! ,Which is still in process it should be look like that above image",
     image: "/mksh.png",
@@ -39,7 +39,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "Persional Portfolio",
+    title: "Personal Portfolio",
     description:
       "A modern, responsive portfolio website designed to showcase my technical skills, projects, and professional background, built with Next.js, TypeScript, and Tailwind CSS.",
     image: "/portfolio.png",
